@@ -20,6 +20,23 @@ body {
   background-color: #52575d;
 }
 
+.editor-container.collapsed {
+  flex-grow: 0;
+}
+
+.editor-container.collapsed .CodeMirror-scroll {
+  position: absolute;
+  overflow: hidden !important;
+}
+
+.ex-coll-btn {
+  margin-left: 10px;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
 .editor-title {
   display: flex;
   justify-content: space-between;
